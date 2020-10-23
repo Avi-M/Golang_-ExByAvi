@@ -7,7 +7,7 @@ func main() {
 	fmt.Println("enter value of n")
 	fmt.Scanln(&n)
 	fmt.println("enter value of k")
-	fmt.Println(&k)
+	fmt.Scanln(&k)
 	for n<k {
 		f:=0
 		for i := 2; i < n/2; i++ {
@@ -29,4 +29,3 @@ func main() {
 
 	}
 
-}
